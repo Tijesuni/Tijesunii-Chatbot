@@ -6,7 +6,15 @@ var know = {
     "what are you up to":"nothing much and you?",
     "What are you up to":"nothing much and you?",
     "nice meeting you":"and you to",
-    "Nice meeting you":"and you to"
+    "Nice meeting you":"and you to",
+    "Bye":"Bye, nice meeting you",
+    "bye":"Bye, nice meeting you",
+    "What's your name":"My name is Tijesunii",
+    "what's your name":"My name is Tijesunii",
+    "How old are you?":"Uhmm... I just created not quite long",
+    "how old are you?":"Uhmm... I just created not quite long",
+    "Where do you live?":"I live in the internet",
+    "where do you live?":"I live in the internet"
 };
 
 function talk(){
