@@ -1,0 +1,52 @@
+#mainPage{
+    background-image: linear-gradient(to right, #FF69B4, #FFC0CB, #EEE8AA);
+    height: 100vh;
+}
+
+.conversationPage{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-family: Roboto, sans-serif;
+    font-size: 65px;
+    font-weight: 100px;
+    line-height: 70px;
+    text-align: center;
+}
+
+#chatlog{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 100px;
+    line-height: 40px;
+    align-content: center;
+}
+
+input{
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    border: #FFFFE0;
+}
+
+input .inputBox{
+    font-size: 20px;
+}
+@media only screen and(max-width: 768px){
+    #chatlog{
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-weight: 100px;
+        line-height: 30px;
+    }
+
+    h3{
+        font-family: Roboto, sans-serif;
+        font-size: 30px;
+        font-weight: 100px;
+        line-height: 50px;
+        text-align: center;
+    }
+}
